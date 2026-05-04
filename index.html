@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L'Élégance | Luxury Beauty Salon</title>
+    <meta name="description" content="Experience the pinnacle of luxury beauty at L'Élégance Salon. Premium hair care, skin treatments, and bridal packages.">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;0,700;1,600;1,700&family=Nunito:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for stars/icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="announcement-bar">
+        ✨ 20% OFF BRIDAL PACKAGES THIS MONTH — BOOK YOUR CONSULTATION
+    </div>
+
+    <nav>
+        <a href="#" class="logo">L'Élégance</a>
+        <div class="nav-links">
+            <a href="#home">Home</a>
+            <a href="#services">Services</a>
+            <a href="#gallery">Gallery</a>
+            <a href="#testimonials">Reviews</a>
+            <a href="#location">Location</a>
+        </div>
+        <a href="#location" class="btn btn-filled" style="padding: 10px 20px; font-size: 0.8rem;">Book Now</a>
+    </nav>
+
+    <section id="home" class="hero">
+        <!-- Floating circles will be added by JS -->
+        <h1>L'Élégance</h1>
+        <p>Where Beauty Meets Luxury</p>
+        <div class="hero-btns">
+            <a href="#location" class="btn btn-filled">Book Appointment</a>
+            <a href="#services" class="btn btn-outlined">See Services</a>
+        </div>
+    </section>
+
+    <section id="services" class="section-padding reveal">
+        <h2 class="section-title">Our Services</h2>
+        <div class="service-categories">
+            <!-- Hair Care -->
+            <div class="category-group">
+                <div class="category-header">
+                    <h3>Hair Care</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="category-content">
+                    <div class="service-row">
+                        <div class="service-info">
+                            <h4>Signature Haircut <span class="pill-badge">Popular</span></h4>
+                            <p>Luxury cut, wash, and premium blow-dry</p>
+                        </div>
+                        <div class="service-meta">
+                            <span class="price">$85</span>
+                            <span class="duration">60 mins</span>
+                        </div>
+                    </div>
+                    <div class="service-row">
+                        <div class="service-info">
+                            <h4>Balayage Artistry</h4>
+                            <p>Hand-painted highlights for a natural sun-kissed look</p>
+                        </div>
+                        <div class="service-meta">
+                            <span class="price">$220+</span>
+                            <span class="duration">180 mins</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Skin & Face -->
+            <div class="category-group">
+                <div class="category-header">
+                    <h3>Skin & Face</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="category-content">
+                    <div class="service-row">
+                        <div class="service-info">
+                            <h4>Glow Ritual Facial <span class="pill-badge">Popular</span></h4>
+                            <p>Deep cleansing and hydration with organic rose extracts</p>
+                        </div>
+                        <div class="service-meta">
+                            <span class="price">$120</span>
+                            <span class="duration">75 mins</span>
+                        </div>
+                    </div>
+                    <div class="service-row">
+                        <div class="service-info">
+                            <h4>24K Gold Rejuvenation</h4>
+                            <p>Premium anti-aging treatment using real gold leaves</p>
+                        </div>
+                        <div class="service-meta">
+                            <span class="price">$195</span>
+                            <span class="duration">90 mins</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Nail Art -->
+            <div class="category-group">
+                <div class="category-header">
+                    <h3>Nail Art</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="category-content">
+                    <div class="service-row">
+                        <div class="service-info">
+                            <h4>Luxury Spa Manicure</h4>
+                            <p>Exfoliation, massage, and gel polish finish</p>
+                        </div>
+                        <div class="service-meta">
+                            <span class="price">$55</span>
+                            <span class="duration">45 mins</span>
+                        </div>
+                    </div>
+                    <div class="service-row">
+                        <div class="service-info">
+                            <h4>Custom Nail Artistry</h4>
+                            <p>Hand-painted designs and Swarovski accents</p>
+                        </div>
+                        <div class="service-meta">
+                            <span class="price">$80+</span>
+                            <span class="duration">90 mins</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Bridal -->
+            <div class="category-group">
+                <div class="category-header">
+                    <h3>Bridal Packages</h3>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="category-content">
+                    <div class="service-row">
+                        <div class="service-info">
+                            <h4>The Royal Bride <span class="pill-badge">Popular</span></h4>
+                            <p>Complete hair, makeup, and pre-wedding glow ritual</p>
+                        </div>
+                        <div class="service-meta">
+                            <span class="price">$450</span>
+                            <span class="duration">Full Day</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="gallery" class="section-padding reveal">
+        <h2 class="section-title">Visual Journey</h2>
+        <div class="gallery-filter">
+            <button class="filter-btn active" data-filter="all">All</button>
+            <button class="filter-btn" data-filter="hair">Hair</button>
+            <button class="filter-btn" data-filter="skin">Skin</button>
+            <button class="filter-btn" data-filter="nails">Nails</button>
+        </div>
+        <div class="gallery-grid" id="gallery-grid">
+            <!-- Grid items will be added here -->
+             <div class="gallery-item" data-category="hair">
+                <img src="hair_style_gallery_1777907149247.png" alt="Hair Styling">
+                <div class="gallery-overlay"><span>Luxury Styling</span></div>
+             </div>
+             <div class="gallery-item" data-category="skin">
+                <img src="skin_care_gallery_1777907163957.png" alt="Skin Care">
+                <div class="gallery-overlay"><span>Skin Rejuvenation</span></div>
+             </div>
+             <div class="gallery-item" data-category="nails">
+                <img src="nail_art_gallery_1777907180467.png" alt="Nail Art">
+                <div class="gallery-overlay"><span>Nail Artistry</span></div>
+             </div>
+             <div class="gallery-item" data-category="hair">
+                <img src="salon_hero_bg_1777907133997.png" alt="Salon Interior">
+                <div class="gallery-overlay"><span>Modern Salon</span></div>
+             </div>
+             <div class="gallery-item" data-category="skin">
+                <img src="skin_care_gallery_1777907163957.png" alt="Facial">
+                <div class="gallery-overlay"><span>Glow Facial</span></div>
+             </div>
+             <div class="gallery-item" data-category="nails">
+                <img src="nail_art_gallery_1777907180467.png" alt="Manicure">
+                <div class="gallery-overlay"><span>Spa Manicure</span></div>
+             </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="section-padding reveal">
+        <h2 class="section-title">Client Stories</h2>
+        <div class="testimonial-grid">
+            <div class="testimonial-card">
+                <p class="quote">"The best salon experience I've ever had. The attention to detail is unmatched."</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <div class="customer">
+                    <div class="avatar">SJ</div>
+                    <strong>Sophia James</strong>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="quote">"My bridal look was absolutely perfect. They made me feel like royalty!"</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <div class="customer">
+                    <div class="avatar">EL</div>
+                    <strong>Emma Laurent</strong>
+                </div>
+            </div>
+            <div class="testimonial-card">
+                <p class="quote">"Highly professional staff and such a relaxing atmosphere. Love their facials!"</p>
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <div class="customer">
+                    <div class="avatar">MW</div>
+                    <strong>Mia Williams</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="location" class="section-padding reveal">
+        <h2 class="section-title">Visit Us</h2>
+        <div class="location-container">
+            <div class="map-container">
+                <iframe class="map-placeholder" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3651.902263435131!2d90.391060315431!3d23.750873994676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3755b89837642531%3A0x7d6a5c179c37267!2sPan%20Pacific%20Sonargaon%20Dhaka!5e0!3m2!1sen!2sbd!4v1651670000000!5m2!1sen!2sbd" allowfullscreen="" loading="lazy"></iframe>
+                <div class="contact-info">
+                    <div class="contact-row">
+                        <i class="fas fa-map-marker-alt" style="color: var(--accent-color);"></i>
+                        <p>123 Luxury Lane, Rose Garden Estate, Dhaka</p>
+                    </div>
+                    <div class="contact-row">
+                        <i class="fas fa-phone" style="color: var(--accent-color);"></i>
+                        <p>+880 1234 567 890</p>
+                        <a href="tel:+8801234567890" class="btn btn-outlined" style="padding: 5px 15px; font-size: 0.7rem; margin-left: 10px;">Call to Book</a>
+                    </div>
+                </div>
+            </div>
+            <div class="hours-container">
+                <h3>Opening Hours</h3>
+                <table class="hours-table">
+                    <tr><td>Monday - Friday</td><td>09:00 AM - 08:00 PM</td></tr>
+                    <tr><td>Saturday</td><td>10:00 AM - 09:00 PM</td></tr>
+                    <tr><td>Sunday</td><td>11:00 AM - 06:00 PM</td></tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <a href="https://wa.me/8801XXXXXXXXX" class="whatsapp-btn" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <script src="script.js"></script>
+</body>
+</html>
